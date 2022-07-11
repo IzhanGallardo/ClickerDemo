@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7317814313466483486
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7317814313466483487}
+  - component: {fileID: 7317814313466483472}
+  m_Layer: 0
+  m_Name: Control
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7317814313466483487
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7317814313466483486}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7317814313466483472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7317814313466483486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddf75b8589e9b8345903d278d82671a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lootableItems:
+  - {fileID: 2492259254418565834, guid: 04b7385e88a458642be76b4fee919eaa, type: 3}
+  - {fileID: 8116594504801031613, guid: 6e10869458acf4747a2ea236876acbbd, type: 3}
+  - {fileID: 3019303074924141971, guid: 713653e4dc12595489b539f4a98b58c0, type: 3}
+  - {fileID: 7091109697222381320, guid: 269748c5d0309214e8e0ffb519dffd81, type: 3}
+  - {fileID: 6874839917771314659, guid: 5ed89f2ff91966d4dbdee2cc42205ca2, type: 3}
+  - {fileID: 6738887962870664105, guid: 604befe0b36904e4882e043df4bc0e54, type: 3}
+  - {fileID: 591625330995635155, guid: 27f305afce86a8d419d1c1fe02b43b4f, type: 3}
+  - {fileID: 5442884434382691734, guid: 68de5dc5c04a6cc47b24e53e30e1bd52, type: 3}
+  - {fileID: 8927236877993835110, guid: 23b95939379fdfb4dbb21def840845d0, type: 3}
+  - {fileID: 6133799016678783869, guid: bd8b8ba09403133478f044d1d1c47576, type: 3}
+  - {fileID: 6008991771812548548, guid: 1f68cd783f11acd4ead3a5430eb40c1f, type: 3}
+  - {fileID: 4752035028149556035, guid: 0b763f76402ec5741ba88ba30ef3d454, type: 3}
+  - {fileID: 3663648394997493608, guid: be1c3891c88cbb14cbcbd777736e0b32, type: 3}
+  stageLoot: {fileID: 0}
+  globalInventory: []
+  inventory: []
+  inventoryBaseCapacity: 0
+  damagePerClickBase: 1
+  maxHpBase: 0
+  currentHP: 0
+  damagePerClickTotal: 0
+  damagePerSecondTotal: 0
+  damagePerClickPrcntgTotal: 0
+  damagePerSecondPrcntgTotal: 0
+  armorTotal: 0
+  armorPenetrationTotal: 0
+  maxHPTotal: 0
+  healingPerSecondTotal: 0
+  vampirismTotal: 0
+  criticalClickChanceTotal: 0
+  criticalClickDamageAmpliTotal: 0
+  enemyStage: 0
+  itemRarityPrcntg: []
